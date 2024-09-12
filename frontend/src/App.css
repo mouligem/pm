@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #8abefc, #df3ef4);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  }
+  /* Container Styles */
+  .container {
+    width: fit-content;
+    margin-top:12%;
+    margin-left:40%;
+    padding: 2rem;
+    margin-bottom:10%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .container1 {
+    width: fit-content;
+    margin-top:14%;
+    margin-left:40%;
+    padding: 2rem;
+    margin-bottom:12.5%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container3 {
+    width: fit-content;
+    margin-top:8%;
+    margin-left:35%;
+    padding: 2rem;
+    margin-bottom:12%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .container4 {
+    width: fit-content;
+    margin-top:8%;
+    margin-left:120%;
+    padding: 4rem;
+    margin-bottom:8%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* Header Styles */
+  header {
+    background: #5c4b9b;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  h1, h2 {
+    font-family: 'Fantasy', cursive;
+  }
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-weight: bold;
+    margin-top: 4px;
+  }
+  input {
+    padding: 0.75rem;
+    margin-bottom: 10px;
+    border: 2px solid #5c4b9b;
+    border-radius: 5px;
+    background: #fefefe;
+    font-size: 1rem;
+  }
+  input:focus {
+    border-color: #7d6baf;
+    outline: none;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #7d6baf;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background: #6d5b9f;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    background: #c43f4c;
+    margin-bottom: 6%;
+  }
+  
+  .logout-button:hover {
+    background: #b02c31;
+  }
+  
+  /* Password List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid black;
+  }
+  
+  /* li:last-child {
+    border-bottom: none;
+  }
+   */
+  /* Links */
+  a {
+    color: #7d6baf;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #c43f4c;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
